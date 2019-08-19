@@ -14,16 +14,16 @@ object Example extends App {
   // needed for the future flatMap/onComplete in the end
   implicit val executionContext = system.dispatcher
 
-  val getOrPut = get | put
+ // val getOrPut = get | put
 
   val route =
     path("order" / IntNumber) { id =>
-      (get | put) { method =>
-        method.complete(s"Received ${method.request.method.name} request for order $id")
+      (get | put | post) { result =>
+        result.complete(s"Received ${result.request.method.name} request for order $id")
       }
     } ~
       path("neworder" / IntNumber) { id =>
-        (get | put) {
+        (get | put | post) {
           extractMethod { m =>
             complete(s"Received ${m.name} request for order $id")
           }

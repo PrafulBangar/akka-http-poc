@@ -30,8 +30,6 @@ object WebServerForHello {
         }
       }
 
-
-
     val bindingFuture = Http().bindAndHandle(route, "localhost", 8080)
 
     println(s"Server online at http://localhost:8080/\nPress RETURN to stop...")

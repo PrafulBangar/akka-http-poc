@@ -13,7 +13,7 @@ import Directives._
 case class ProperResponse(code: Int, message: String)
 
 object Rejection {
- //def main(args: Array[String]) {
+ def main(args: Array[String]) {
   implicit val system = ActorSystem("my-system")
     implicit val materializer = ActorMaterializer()
     // needed for the future flatMap/onComplete in the end
@@ -23,7 +23,20 @@ object Rejection {
         get {
           complete("hello to akka-http")
         }
-      }
+      }~
+        path("divide") {
+          complete((1 / 0).toString) //Will throw ArithmeticException
+        }
+
+
+   implicit def myExceptionHandler: ExceptionHandler =
+     ExceptionHandler {
+       case _: ArithmeticException =>
+         extractUri { uri =>
+           println(s"Request to $uri could not be handled normally")
+           complete(HttpResponse(InternalServerError, entity = "Bad numbers, bad result!!!"))
+         }
+     }
 
     implicit def myRejectionHandler =
       RejectionHandler.newBuilder()
@@ -42,7 +55,7 @@ object Rejection {
     bindingFuture
       .flatMap(_.unbind()) // trigger unbinding from the port
       .onComplete(_ => system.terminate()) // and shutdown when done
-  //}
+  }
 }
 
 
