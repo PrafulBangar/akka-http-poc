@@ -21,3 +21,5 @@ class RejectionTest extends WordSpec with Matchers with ScalatestRouteTest {
     }
   }
 }
+
+

@@ -3,9 +3,12 @@ package com.group
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport._
+import akka.http.scaladsl.model.{HttpMethods, HttpRequest}
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
+import akka.http.scaladsl.unmarshalling.Unmarshal
 import akka.stream.ActorMaterializer
+import akka.util.ByteString
 import spray.json.RootJsonFormat
 import spray.json.DefaultJsonProtocol._
 
@@ -44,7 +47,16 @@ object HighLevelAPI {
                 User(name = "Anjali Sharma", age = 62,sr=3)
               )
             }
-          }
+          }~
+       path("unmarshelofbytestring"){
+         get{
+           val jsonByteString = ByteString("""{"name":"Hello"}""")
+           val httpRequest = HttpRequest(HttpMethods.POST, entity = jsonByteString)
+           complete(
+            Unmarshal(httpRequest).to[String]
+           )
+         }
+       }
 
       }
     Http().bindAndHandle(routes, "localhost", 8080)

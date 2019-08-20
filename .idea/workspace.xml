@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7a081e93-bb64-413f-8c24-0c1cdc5f3be1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/group/DirectiveExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/group/DirectiveExample.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/group/Hello.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/group/Hello.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/group/Rejection.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/group/Rejection.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/group/ScalaToJson.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/group/ScalaToJson.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/RejectionTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/RejectionTest.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,10 +35,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/Hello.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="324">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="e#20#68#0" expanded="true" />
+                <element signature="e#19#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,11 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/DirectiveExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-              <folding>
-                <element signature="e#19#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="26" selection-start-line="4" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -59,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/LowLevelApi.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="465">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#19#48#0" expanded="true" />
@@ -69,10 +66,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/Rejection.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/Client_API.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="285">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -80,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/RoutingDSL.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="123">
               <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
               <folding>
                 <element signature="e#19#48#0" expanded="true" />
@@ -92,10 +89,41 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/ScalaToJson.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="87">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="e#19#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/Unmarshelling.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-162" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/RejectionTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/RouteDslTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="e#2#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,14 +146,19 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/group/LowLevelApi.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/RouteDslTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/group/rejection.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/group/ScalaToJson.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/group/RejectionBlog.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/RejectionTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/group/RoutingDSL.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/group/ExceptionExample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/group/clientsideAPI.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/group/unmarshelling.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/group/ScalaToJson.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/group/client_API.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/RejectionTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/group/DirectiveExample.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/group/Rejection.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/group/Hello.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/group/DirectiveExample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/group/Client_API.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/group/RequestLevel.scala" />
       </list>
     </option>
   </component>
@@ -141,8 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,6 +224,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,8 +424,43 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27613726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28092578" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24980047" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3110749" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3306189" />
+      <window_info anchor="bottom" id="SBT Console" order="8" weight="0.32954547" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40228012" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="SBT Execute" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="sbt" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32960895" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28092578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -409,11 +477,11 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.3306189" />
       <window_info anchor="bottom" id="SBT Console" order="8" weight="0.32954547" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.252443" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.38925081" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="SBT Execute" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -424,7 +492,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32960895" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Akka_HTTP$TestKitExample.ic" NAME="TestKitExample Coverage Results" MODIFIED="1565947214963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -488,29 +556,58 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/RejectionBlog.scala" />
-    <entry file="file://$PROJECT_DIR$/src/test/scala/RouteDslTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/ExceptionExample.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/clientsideAPI.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="441">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding>
-            <element signature="e#2#45#0" expanded="true" />
+            <element signature="e#18#59#0" expanded="true" />
+            <element signature="e#274#298#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/RejectionTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/client_API.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="273">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#19#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/unmarshelling.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#19#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/Rejection.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="54" column="42" lean-forward="true" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+          <folding>
+            <element signature="e#18#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/DirectiveExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/RoutingDSL.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
+        <state relative-caret-position="123">
           <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
           <folding>
             <element signature="e#19#48#0" expanded="true" />
@@ -518,37 +615,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/ExceptionExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#19#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/Rejection.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/Hello.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="324">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="e#20#68#0" expanded="true" />
+            <element signature="e#19#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/DirectiveExample.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/RequestLevel.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        <state relative-caret-position="222">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
           <folding>
             <element signature="e#19#48#0" expanded="true" />
           </folding>
@@ -557,7 +637,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/LowLevelApi.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="465">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#19#48#0" expanded="true" />
@@ -565,10 +645,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/RejectionTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/RouteDslTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#2#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/Client_API.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/Unmarshelling.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/group/ScalaToJson.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="87">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
             <element signature="e#19#48#0" expanded="true" />
           </folding>

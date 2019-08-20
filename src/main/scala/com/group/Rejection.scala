@@ -7,16 +7,14 @@ import akka.http.scaladsl.model._
 import scala.io.StdIn
 import akka.http.scaladsl.model.StatusCodes._
 import akka.http.scaladsl.server._
-import Directives._
+import akka.http.scaladsl.server.Directives._
 
-
-case class ProperResponse(code: Int, message: String)
 
 object Rejection {
  def main(args: Array[String]) {
   implicit val system = ActorSystem("my-system")
     implicit val materializer = ActorMaterializer()
-    // needed for the future flatMap/onComplete in the end
+
     implicit val executionContext = system.dispatcher
     val route =
       path("hello") {
@@ -25,7 +23,7 @@ object Rejection {
         }
       }~
         path("divide") {
-          complete((1 / 0).toString) //Will throw ArithmeticException
+          complete((1 / 0).toString)
         }
 
 
@@ -51,10 +49,10 @@ object Rejection {
     val bindingFuture = Http().bindAndHandle(route, "localhost", 8080)
 
     println(s"Server online at http://localhost:8080/\nPress RETURN to stop...")
-    StdIn.readLine() // let it run until user presses return
+    StdIn.readLine()
     bindingFuture
-      .flatMap(_.unbind()) // trigger unbinding from the port
-      .onComplete(_ => system.terminate()) // and shutdown when done
+      .flatMap(_.unbind())
+      .onComplete(_ => system.terminate())
   }
 }
 
