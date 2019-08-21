@@ -27,7 +27,7 @@ object Rejection {
         }
 
 
-   implicit def myExceptionHandler: ExceptionHandler =
+ implicit def myExceptionHandler: ExceptionHandler =
      ExceptionHandler {
        case _: ArithmeticException =>
          extractUri { uri =>
